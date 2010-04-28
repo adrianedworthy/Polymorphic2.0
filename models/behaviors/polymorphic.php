@@ -1,7 +1,7 @@
 <?php
 /* SVN FILE: $Id: polymorphic.php 18 2008-03-07 12:56:09Z andy $ */
 /**
- * Polymorphic Behavior.
+ * Polymorphic Behavior 2.0
  *
  * Allow the model to be associated with any other model object
  *
@@ -11,11 +11,11 @@
  * Redistributions of files must retain the above copyright notice.
  *
  * @filesource
- * @author 		Andy Dawson (AD7six)
- * @version		$Revision: 18 $
- * @modifiedby		$LastChangedBy: Gothfunc & Theaxiom $
+ * @author 		    Andy Dawson (AD7six)
+ * @version         2.0
+ * @modifiedby      Gothfunc & Theaxiom
  * @lastmodified	$Date: 2008-03-07 13:56:09 +0100 (Fri, 07 Mar 2008) $
- * @license		http://www.opensource.org/licenses/mit-license.php The MIT License
+ * @license		    http://www.opensource.org/licenses/mit-license.php The MIT License
  */
 class PolymorphicBehavior extends ModelBehavior {
 
