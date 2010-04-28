@@ -64,9 +64,6 @@ class PolymorphicBehavior extends ModelBehavior {
 						$associatedConditions = Set::merge($associatedConditions, $this->__polyConditions[$class]);
 					}
 
-                    // Remove this.
-                    $result = $result[$model->alias];
-
                     // Bind the $class model if it's not there already.
 					if (!isset($model->$class)) {
 						$model->bindModel(array('belongsTo' => array(
@@ -104,9 +101,6 @@ class PolymorphicBehavior extends ModelBehavior {
 
             // If these are set, bind the $class model and get data associated with it.
 			if ($class && $foreignId) {
-
-                // Remove this.
-				$result = $results[$model->alias];
 
                 // Bind the $class model if it's not there already.
 				if (!isset($model->$class)) {
